@@ -1,0 +1,13 @@
+{
+  "id" : "https://elshand12.github.io/Grahamtest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in elshand12/Grahamtest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://elshand12.github.io/Grahamtest/manifests/graham2_manifest.json",
+    "label" : "[Click to edit label]"
+  } ]
+}

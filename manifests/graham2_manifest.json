@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://elshand12.github.io/Grahamtest/manifests/graham2_manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://b7f7263d-a71a-48db-83cd-0652582e44c1",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f9e2d359-ffd0-4570-8d65-eb7fa5bf16dc",
+      "@type" : "sc:Canvas",
+      "label" : "Rocks, Baffin Island",
+      "height" : 6587,
+      "width" : 5352,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://20cbcb82-9f6e-4577-8b8a-7d7bbcc03622",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/baffinisland1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/baffinisland1",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 6587,
+          "width" : 5352
+        },
+        "on" : "http://f9e2d359-ffd0-4570-8d65-eb7fa5bf16dc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fc609803-0630-4307-8efd-4293651bb64f",
+      "@type" : "sc:Canvas",
+      "label" : "Slabs, Baffin Island",
+      "height" : 11603,
+      "width" : 12750,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://dffe5c14-6405-4f37-b173-bbf94975c961",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/slabs_20230928/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/slabs_20230928",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 11603,
+          "width" : 12750
+        },
+        "on" : "http://fc609803-0630-4307-8efd-4293651bb64f"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://4d7992b2-e02d-4dbd-ba8e-76a23fd4334a",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 0,
+      "width" : 0,
+      "images" : [ ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}

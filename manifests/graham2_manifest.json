@@ -2,14 +2,14 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://elshand12.github.io/Grahamtest/manifests/graham2_manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "rocks from Baffin Island that formed beneath the Laurentide Ice Sheet during the last ice age",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "[Click to edit description]",
+    "@value" : "A testing manifest for working with large images in the earth sciences classroom",
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
+  "attribution" : "Graham Edwards",
   "sequences" : [ {
     "@id" : "http://b7f7263d-a71a-48db-83cd-0652582e44c1",
     "@type" : "sc:Sequence",

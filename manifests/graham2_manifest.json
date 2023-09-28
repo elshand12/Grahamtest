@@ -69,14 +69,6 @@
         "on" : "http://fc609803-0630-4307-8efd-4293651bb64f"
       } ],
       "related" : ""
-    }, {
-      "@id" : "http://4d7992b2-e02d-4dbd-ba8e-76a23fd4334a",
-      "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
-      "height" : 0,
-      "width" : 0,
-      "images" : [ ],
-      "related" : ""
     } ]
   } ],
   "structures" : [ ]
